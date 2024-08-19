@@ -1,0 +1,367 @@
+@media (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100vh;
+    }
+    .img33{
+        display: none;
+    }
+    .img3{
+        display: block;
+    }
+    .header{
+        display: grid;
+    }
+    .bactop{
+        position: relative;
+        
+    }
+    .img2{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top:-200px
+    }
+    .img3{
+        position: relative;
+        width: 100%;
+        top: -40px;
+    }
+    .header1{
+        position: absolute;
+        margin-top: 400px;
+    }
+    .img4{
+        margin-left: 70%;
+    }
+    .top1{
+        background-color: white;
+        padding: 40px;
+        display: flex;
+        width: 90%;
+        position: relative;
+        z-index: 1;
+    }
+    .page1, .page2, .page3{
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        padding-bottom: 60px;
+        padding-top: 10px;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+    }
+    .header1{
+        text-align: center;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        
+    }
+    .h101{
+        font-size: 32px;
+        font-weight: 250;
+    }
+    .but11{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 19px;   
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        color: white;
+    }
+    .page1{
+        background-color: hsl(0, 0%, 98%);
+
+    }
+    .page2{
+        background-color: hsl(220, 16%, 96%);
+
+    }
+    .page3{
+        background-color: hsl(0, 0%, 98%);
+
+    }
+    .but11:hover{
+        background-image: linear-gradient(to right, red,yellow)
+    }
+    .img5{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .question{
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .reason1, .reason2, .reason3, .reason4, .reason5{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        
+    }
+
+    .head, .h102{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 200;
+        font-size: 28px;
+    }
+    .head2{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        font-size: 23px;
+    }
+    .img6{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        height: 220px;
+        width: 100%;
+    }
+    .h102{
+        padding: 20px;
+    }
+    .cont21, .cont22, .cont23, .cont24{
+        padding: 23px;
+        text-align: left;
+    }
+    .h303{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: 200;
+        color: hsl(233, 26%, 24%);
+    }
+    .article1, .article2, .article3, .article4{
+        margin-bottom: 35px;
+    }
+    .art1{
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(233, 8%, 62%);
+    }
+    .page4{
+        background-color: hsl(233, 26%, 24%);
+        text-align: center;
+        line-height: 2.3;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+    }
+    .seplogo{
+        padding: 35px;
+        color: white;
+    }
+    .socials{
+        word-spacing: 11px;
+    }
+    .privacy{
+        padding-bottom: 25px;
+        color: white;
+    }
+    .finalgrey{
+        color: hsl(233, 8%, 62%);
+    }
+}
+
+@media (min-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .img3{
+        display: none;
+    }
+    .img33{
+        display: block;
+    }
+    .bactop{
+        position: relative;
+        
+    }
+    .img2{
+        position: absolute;
+        width: 100%;
+        top: -120px;
+    }
+    .img33{
+        position: static;
+        width: 100%;
+    }
+
+    .img4{
+        margin-left: 70%;
+    }
+    .top1{
+        background-color: white;
+        padding: 40px;
+        display: flex;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+    .header1{
+        padding-top: 170px;
+        padding-bottom: 50px;
+    }
+    .question{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .easyW{
+        padding-top: 15px;
+        padding-right: 700px;
+    }
+    .h101{
+        padding-bottom: 15px;
+    }
+    .reeer{
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-bottom: 40px;
+
+        display: flex;
+    }
+    .reason1, .reason2, .reason3, .reason4{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        width: 100%;
+        padding-right: 15px;
+    }
+    .img5{
+        padding-bottom: 20px;
+        width: 20%;
+    }
+    .arrrt{
+        display: flex;
+    }
+    .head{
+        font-size: 28px;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 200;
+        color: hsl(233, 26%, 24%);
+    }
+    .art1{
+        margin: 12px;
+        height: auto;
+        max-width: 100%;
+        padding-bottom: 15px;
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(233, 8%, 62%);
+    }
+    .img6{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        height: 170px;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .page1{        
+        padding-top: 30px;
+        padding-left: 90px;
+        padding-right: 90px;
+        display: flex;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+    }
+    .page2{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        padding-top: 30px;
+        color: hsl(233, 8%, 62%);
+        background-color: hsl(220, 16%, 96%);
+    }
+    .page3{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(233, 8%, 62%);
+    }
+    .h101{
+        font-size: 35px;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 200;
+    }
+    .h102{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        font-size: 28px;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 200;
+        color: hsl(233, 26%, 24%);
+    }
+    .page4{
+        background-color: hsl(233, 26%, 24%);
+        line-height: 2.3;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        display: flex;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .but11{
+        margin-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 19px;   
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        color: white;
+    }
+    .but11:hover{
+        background-image: linear-gradient(to right, red,yellow)
+    }
+    .h303{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 100;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: hsl(233, 26%, 24%);
+    }
+    .cont21, .cont22, .cont23, .cont24{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .newl{
+        display: grid;
+        line-height: 9;
+    }
+    .contM{
+        display: flex;
+    }
+    .cont1{
+        padding-left: 110px;
+        color: white;
+    }
+    .cont2{
+        padding-left: 40px;
+        color: white;
+    }
+    .lastD{
+        text-align: right;
+        padding-left: 180px;
+        color: white;
+    }
+    .head2{
+        font-weight: 200;
+        padding-bottom: 15px;
+        color: hsl(233, 26%, 24%);
+    }
+    .nameer{
+        font-size: 12px;
+        color: hsl(233, 8%, 62%);
+    }
+}
